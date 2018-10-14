@@ -1,0 +1,9 @@
+dubbo:
+  application:
+    name: springboot-provider
+  registry:
+    protocol: zookeeper
+    port: 2181
+    address: 127.0.0.1
+  monitor:
+    protocol: registry
