@@ -1,4 +1,3 @@
-
 dubbo:
   application:
     name: springboot-consumer
@@ -6,7 +5,10 @@ dubbo:
     protocol: zookeeper
     port: 2181
     address: 127.0.0.1
-  monitor:
-    protocol: registry
+    check: false
+#  monitor:
+#    protocol: registry
+  consumer:
+    check: false
 server:
   port: 8085
